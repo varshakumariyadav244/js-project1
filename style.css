@@ -57,3 +57,69 @@ h1 {
 #addbtn:hover {
     background-color: orange;
 }
+
+
+@media screen and (max-width:900px) {
+ 
+    body{
+        h1{
+            font-size: 40px;
+            padding: 50px 0;
+        }
+        h2{
+            font-size: 20px;
+        }
+    }
+    .box{
+        width:70%;  
+
+        span{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+     #addbtn{
+        padding: 10px 30px;
+        font-size: 10px;
+        white-space: nowrap;
+     }
+}
+@media screen and (max-width:500px) {
+    
+    body{
+        h1{
+            font-size: 38px;
+            white-space: nowrap;
+        }
+    }
+      #timeInput {
+        margin-right: 10px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+         #addbtn{
+        padding: 10px 0px;
+        font-size: 0px;
+        white-space: nowrap;
+    }
+
+    }
+}
+@media screen and (max-width:300px) {
+    
+    body{
+        h1{
+            font-size: 20px;
+            white-space: nowrap;
+        }
+    }
+    #timeInput{
+        padding: 10px 0;
+    }
+    #addbtn{
+        padding: 10px 20px;
+        font-size: 0px;
+        white-space: nowrap;
+    }
+}
